@@ -5,7 +5,9 @@ function mondayWork(activity = 'go to the office'){
     return `This Monday, I will ${activity}.`
 }
 function wrapAdjective(wrapAd = `*`){
-    const innerFunction = function 
+    return function(flare = 'special'){
+        return `You are ${wrapAd}${flare}${wrapAd}!`
+    } 
 
 }
     
